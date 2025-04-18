@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+        section {
+            padding: 80px 0;
+        }
+        .navbar {
+            background: #003e7e;
+        }
+        .navbar a {
+            color: white;
+        }
+        footer {
+            background: #003e7e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mon Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#entreprise">Entreprise</a></li>
+                <li class="nav-item"><a class="nav-link" href="#formation">Formation</a></li>
+                <li class="nav-item"><a class="nav-link" href="#veille">Veille Info</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Présentation de l’entreprise -->
+<section id="entreprise" class="bg-light">
+    <div class="container text-center">
+        <h2>Présentation de l'entreprise</h2>
+        <p>Description de l'entreprise...</p>
+    </div>
+</section>
+
+<!-- Présentation formation -->
+<section id="formation">
+    <div class="container text-center">
+        <h2>Présentation Formation</h2>
+        <p>Description de la formation...</p>
+    </div>
+</section>
+
+<!-- Veille informationnelle -->
+<section id="veille" class="bg-light">
+    <div class="container text-center">
+        <h2>Veille Info</h2>
+        <p>Contenu sur la veille informationnelle...</p>
+    </div>
+</section>
+
+<!-- Projets -->
+<section id="projets">
+    <div class="container text-center">
+        <h2>Projets</h2>
+        <p>Liste des projets réalisés...</p>
+    </div>
+</section>
+
+<!-- Formulaire de contact -->
+<section id="contact" class="bg-light">
+    <div class="container text-center">
+        <h2>Contact</h2>
+        <form>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Votre Nom">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Votre Email">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Votre Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+        <br>
+        <a href="https://www.linkedin.com/in/karla-flan-5775132b3" class="btn btn-dark" target="_blank">LinkedIn</a>
+    </div>
+</section>
+
+<!-- Pied de page -->
+<footer>
+    <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
